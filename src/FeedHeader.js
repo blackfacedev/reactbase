@@ -4,7 +4,7 @@ import './style.scss';
 const feedHeader = () => (
   <div className="FeedHeader">
     <h1>
-RocketSeat
+News Feed
     </h1>
   </div>
 );

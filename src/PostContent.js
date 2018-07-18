@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.scss';
 
-const postContent = props => (
+const postContent = ({ data }) => (
   <div>
     <p>
-Post content
+      {data.description}
     </p>
   </div>
 );

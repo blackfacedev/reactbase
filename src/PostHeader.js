@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.scss';
 
-const postHeader = props => (
+const postHeader = ({ data }) => (
   <div>
     <p>
-Post Header
+      {data.author}
     </p>
   </div>
 );
